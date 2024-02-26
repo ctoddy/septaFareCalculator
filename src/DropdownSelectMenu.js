@@ -14,7 +14,7 @@ function DropdownSelectMenu({ options, changeFunc }) {
   return (
     <div>
       <select id="dropdown" value={selectedValue} onChange={handleSelectChange}>
-        <option value="">-- Select --</option>
+        <option value=""> Select option</option>
         {options.map((option) => (
           <option key={option.value} value={option.value}>
             {option.label}

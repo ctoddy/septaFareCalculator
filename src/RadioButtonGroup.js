@@ -11,7 +11,7 @@ function RadioButtonGroup({ options, changeFunc }) {
   };
 
   return (
-    <div>
+    <div className='radio_options'>
     {options.map((option) => (
         <div key={option.value}>
         <input
